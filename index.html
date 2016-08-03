@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="scotchApp">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="CSSFiles/navBar.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+	
+    <script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+	
+	<script type="text/javascript" src="JSFiles/mainJS.js"></script>
+	<script type="text/javascript" src="JSFiles/navigationJS.js"></script>
+	<title>Coding</title>
+</head>
+    <!-- define angular controller -->
+    <body ng-controller="mainController">
+
+    		<div id="wrapper">
+	<nav class="navB">
+		<ul class="navB">
+		
+			<li><a href="#home" class="aButtons">HOME</a></li>
+
+			<li> 
+				<a href="#dev" class="aButtons">DEVELOPMENT
+					<ul id="options" class="options">
+						<a>iOS</a>
+						<a>ANDROID</a>
+						<a>WEB</a>
+					</ul>
+				</a>
+			</li>
+
+			<li>
+				<a href="#education" class="aButtons">EDUCATION 
+					<ul id = "options"  class="options">
+						<a>HIGH SCHOOL</a>
+						<a>UNIVERSITY</a>
+						<a>TECH TRACK</a>
+					</ul>
+				</a>
+			</li>
+	
+	
+			<li><a href="#resume" class="aButtons">RESUME</a></li>
+			<li><a href="#contact" class="aButtons">CONTACT</a></li>
+		
+		</ul>
+	</nav>
+
+	<div class="leftskew"></div>
+	<div class="rightskew" id="rightskew"></div>
+
+
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div id="main">
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+    </div>
+
+    <footer>
+		<div class="footerDiv">
+			<span>Max Nelson</span>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
