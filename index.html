@@ -1,74 +1,235 @@
 <!DOCTYPE html>
-<html ng-app="scotchApp">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link rel="stylesheet" href="CSSFiles/navBar.css"/>
-
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
-	
-    <script src="node_modules/angular/angular.js"></script>
-	<script src="node_modules/angular-route/angular-route.js"></script>
-	
-	<script type="text/javascript" src="JSFiles/mainJS.js"></script>
-	<script type="text/javascript" src="JSFiles/navigationJS.js"></script>
-	<title>Coding</title>
-</head>
-    <!-- define angular controller -->
-    <body ng-controller="mainController">
-
-    		<div id="wrapper">
-	<nav class="navB">
-		<ul class="navB">
-		
-			<li><a href="#home" class="aButtons">HOME</a></li>
-
-			<li> 
-				<a href="#dev" class="aButtons">DEVELOPMENT
-					<ul id="options" class="options">
-						<a>iOS</a>
-						<a>ANDROID</a>
-						<a>WEB</a>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.ico">
+		<title>Maxwell Asher Nelson</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- Custom styles for this template -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css"  rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top"><h1>M A X</h1></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">About Me</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#education">Resume</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#portfolio">Education</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
 					</ul>
-				</a>
-			</li>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!-- Header -->
+		<header>		
+		<div class="container">
+				<div class="slider-container">
+					<div class="intro-text">
+						<div class="intro-heading">M a x <span class="spacer"></span> N e l s o n</div>
+						<a href="#about" class="page-scroll btn btn-xl">Who Am I?</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="about" class="dark-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>About Me</h2>
+							<p>Solving problems is fun, solving problems through programming intrigues me.</p>
+						</div>
+					</div>
+				</div>
 
-			<li>
-				<a href="#education" class="aButtons">EDUCATION 
-					<ul id = "options"  class="options">
-						<a>HIGH SCHOOL</a>
-						<a>UNIVERSITY</a>
-						<a>TECH TRACK</a>
-					</ul>
-				</a>
-			</li>
-	
-	
-			<li><a href="#resume" class="aButtons">RESUME</a></li>
-			<li><a href="#contact" class="aButtons">CONTACT</a></li>
-		
-		</ul>
-	</nav>
+		<section class="dark-bg short-section stats-bar">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 class="stat-number" data-n="1">1</h2>
+							<h6>JAVA</h6>
+							<span>YEARS</span>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 class="stat-number" data-n="1">1</h2>
+							<h6>SWIFT</h6>
+							<span>YEARS</span>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 class="stat-number" data-n="3">3</h2>
+							<h6>HTML/CSS</h6>
+							<span>MONTHS</span>
+						</div>
+					</div>
+					<div class="col-md-3 mb-sm-30">
+						<div class="counter-item">
+							<h2 class="stat-number" data-n="3">3</h2>
+							<h6>JAVASCRIPT</h6>
+							<span>MONTHS</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</br></br>
+				<div id = "education" class="row">
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-briefcase ot-circle"></i>
+							<h3>Web Development</h3>
+							<p>This page shows my web skills</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-photo ot-circle"></i>
+							<h3>Development</h3>
+							<p>My primary focus is iOS development</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-camera-retro ot-circle"></i>
+							<h3>Education</h3>
+							<p>Though I believe my career choice does not require a four year degree, education will always be something I am very interested in</p>
+						</div>
+					</div>
+					<!-- end about module -->
+					
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<section class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="section-text">
+							<h3>EDUCATION</h3>
+							<p>A few highlights of my life so far</p>
+							<ul>
+								<li>Code to Success graduate through Success in Education Foundation</li>
+								<li>Timpanogos High School Graduate</li>
+								<li>Utah Valley University Sophomore</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-5">
 
-	<div class="leftskew"></div>
-	<div class="rightskew" id="rightskew"></div>
+						<div class="owl-portfolio owl-carousel">
+							<div class="item">
+								<div class="owl-portfolio-item"><img src="images/codetosuccess.jpg" class="img-responsive" alt="portfolio"></div>
+							</div>
+							<div class="item">
+								<div class="owl-portfolio-item"><img src="images/timp.jpg" class="img-responsive" alt="portfolio"></div>
+							</div>
+							<div class="item">
+								<div class="owl-portfolio-item"><img src="images/uvu.png" class="img-responsive" alt="portfolio"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>Resume</h2>
+						<p>My Abilities</p>
+							<div class="rContainer">
+								<object class="resume" data="maxresume.pdf" type="application/pdf" width="100%" height="100%">
+  									<p>Alternative text - include a link <a href="maxresume.pdf">to the PDF!</a></p>
+								</object>
+							</div>
+					</div>
+				</div>
+			</div>
 
 
-    <!-- MAIN CONTENT AND INJECTED VIEWS -->
-    <div id="main">
+			</div>
+			</div><!-- end container -->
+		</section>
 
-        <!-- angular templating -->
-        <!-- this is where content will be injected -->
-        <div ng-view></div>
+		<section id="contact" class="dark-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Contact Info</h2>
+							<p>Questions, Work?<br>Contact me!<br><br>801-362-7920<br>Maxnelson997@Gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    </div>
+		<footer>
+			<div class="container text-center">
+				<p><a href="http://maxnelson997.github.io"><span>Max Nelson Portfolio</span></a></p>
+			</div>
+		</footer>
 
-    <footer>
-		<div class="footerDiv">
-			<span>Max Nelson</span>
-		</div>
-	</footer>
-</div>
-</body>
+
+
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/SmoothScroll.min.js"></script>
+		<script src="js/mooz.themes.scripts.js"></script>
+	</body>
 </html>
