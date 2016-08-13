@@ -110,7 +110,7 @@ $(function() {
             }
         };
         $(props.from).animate(props.to, {
-            duration: 1000 * 3,
+            duration: 1000 * 1,
             step: function (now, fx) {
                 $(el).text(Math.ceil(now));
             },
