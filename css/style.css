@@ -44,6 +44,7 @@ p {
 color: #B1B1B1;	
 }
 
+
 a:hover, a:focus, a:active, a.active {
 	color: #fec503;
 }
@@ -141,7 +142,7 @@ section ul li:before {
 	text-transform: uppercase;
 	font-weight: 100;
 	letter-spacing: 1px;
-	color:#000;
+	color:white;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
 	color: #479CCF;
@@ -159,6 +160,9 @@ section ul li:before {
 }
 
 @media (min-width:768px) {
+	.navbar-default .nav li a {
+		color: black;
+	}
 	.navbar-default
 	{
 		background-color: rgba(255, 255, 255, 0.65);
@@ -196,7 +200,7 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #77cace;
+	background-color: white;
 	background-image: url(../images/canvas.jpeg);
 	background-repeat:no-repeat;
 	background-attachment: scroll;
@@ -220,7 +224,10 @@ header .intro-text {
 		padding-bottom: 100px;
     }
 }
-
+#whoami{
+	opacity: 0.7;
+	border-radius: 10px;
+}
 header .intro-text .intro-lead-in {
 	display: inline-block;
 	background-color: rgba(255, 255, 255, 0.65);
@@ -307,6 +314,7 @@ header .intro-text .intro-heading {
 4.1. About
 --------------------*/
 
+
 .mz-module-about h3 {
 	font-weight: 200;
 	font-size: 19px;
@@ -319,6 +327,7 @@ header .intro-text .intro-heading {
 .dark-bg .mz-module-about h3 {
 	color: #FFFFFF;
 }
+
 
 .mz-module-about p {
 	font-size: 14px;
@@ -343,6 +352,10 @@ header .intro-text .intro-heading {
 /*--------------------
 4.2. Education
 --------------------*/
+#education{
+	position: relative;
+	left: 135px;
+}
 
 .section-text h3 {
 	margin: 0 0 30px;
@@ -568,7 +581,7 @@ font-size: 11px;
 }
 
 .btn-xl {
-color: #fff;
+	color: #fff;
     background-color: #479CCF;
     /* border-color: #726FB9; */
     font-family: "M+ 1c light",sans-serif;
@@ -580,53 +593,4 @@ color: #fff;
     padding: 17px 45px;
 }
 
-/* Back to top button
----------------------------------- */
-#back-top {
-	position: fixed;
-	z-index: 1000;
-	bottom: 40px;
-	right: 50px;
-}
-#back-top a {
-	width: 60px;
-	height: 60px;
-	display: block;
-	text-align: center;
-	font: 11px/100% "M+ 1c light", Helvetica, sans-serif;
-	font-family: "M+ 1c light",sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #FFFFFF;
-	background: #A9A9B1;
-	/* background color transition */
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-#back-top a:hover {
-	background: #fed136;
-}
-/* arrow icon (span tag) */
-#back-top i {
-	margin-top: 15px;
-	font-size: 28px;
-}
 
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
-#back-top {
-	position: fixed;
-	bottom: 10px;
-	right: 30px;
-}
-#back-top a {
-	width: 40px;
-	height: 40px;
-}
-#back-top i {
-	margin-top: 7px;
-	font-size: 20px;
-}
-}
