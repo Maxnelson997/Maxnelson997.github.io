@@ -1,11 +1,52 @@
 $(window).scroll(function() {
     if ($(document).scrollTop() > 150) {
         $('.navbar').addClass('navbar-shrink');
+
     }
     else {
         $('.navbar').removeClass('navbar-shrink');
     }
 });
+
+
+
+$(function(){
+  $('.htmlbutton').mouseenter(function(){
+      var className = $(this).attr("class");
+      className = checkNames(className);
+
+      $(this).addClass('animate');
+      $(this).click(function(){
+        window.location.href = className;
+      })
+
+  });
+  $('.htmlbutton').mouseleave(function(){
+     $(this).removeClass('animate');
+  });
+});
+
+function checkNames(className){
+
+  if(className.includes("github")){
+    className = 'https://github.com/Maxnelson997';
+  } else
+  if(className.includes("linkedin")){
+    className = 'https://www.linkedin.com/in/maxwellnelson';
+  } else
+  if(className.includes("twitter")){
+    className = 'https://twitter.com/MaximusAsher';
+  } else
+  if(className.includes("maxpic")){
+    className = 'http://maxnelsondevelopment.com';
+  } 
+
+  return className;
+
+
+  }
+
+
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
