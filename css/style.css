@@ -213,6 +213,7 @@ header {
 	-moz-background-size: cover;
     background-size:cover;
 	-o-background-size: cover;
+	padding-bottom: -50px;
 }
 
 

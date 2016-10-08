@@ -1,3 +1,5 @@
+$('#softwaredev').addClass('animated zoomInRight');
+
 $(window).scroll(function() {
     if ($(document).scrollTop() > 150) {
         $('.navbar').addClass('navbar-shrink');
