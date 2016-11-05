@@ -208,12 +208,12 @@ header {
 	background-image: url(../images/me.jpg);
 	background-repeat:no-repeat;
 	background-attachment: scroll;
-	background-position: center -150px;
+	background-position: center -100px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size:cover;
 	-o-background-size: cover;
-	padding-bottom: -50px;
+	padding-bottom: 300px;
 }
 
 
@@ -226,10 +226,11 @@ header .intro-text {
 
 }
 
-@media (min-width: 550px){
-	/*while the screen is more than 550px*/
+@media (max-width: 550px){
+	/*while the screen is less than 550px*/
 	header {
-		background-position: center -200px;
+		background-position: center -100px;
+		padding-bottom: 100px;
 	}
 }
 
@@ -243,7 +244,14 @@ header .intro-text {
 
     }
     header{
-    	background-position: center -200px;
+    	background-position: center -50px;
+    	padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 900px) {
+    header{
+    	background-position: center -250px;
     }
 }
 
@@ -252,27 +260,25 @@ header .intro-text {
     	background-position: center -300px;
     }
 }
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (width : 375px) 
-    and (height : 559px) 
-    and (orientation : portrait) 
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 375/559)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{ 
-	header{
-    	background-position: center 200px;
-    }
-}
 
 
 @media (min-width: 1300px) {
     header{
+    	background-position: center -500px;
+    	padding-bottom: 300px;
+    }
+}
+
+@media (min-width: 1700px) {
+    header{
     	background-position: center -700px;
+    	padding-bottom: 500px;
+    }
+}
+
+@media (min-width: 2200px) {
+    header{
+    	background-position: center -900px;
     }
 }
 
@@ -329,7 +335,9 @@ header .intro-sd {
 		margin-bottom: 50px;
 	}
 	header .intro-sd {
-	font-size: 40px;
+		font-size: 40px;
+		margin-bottom: 80px;
+		width: 500px;
 	}
 }
 
@@ -442,9 +450,9 @@ header .intro-sd {
 
 .ot-square {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	font-size: 24px;
-	width: 500px;
+	width: 250px;
 	height: 40px;
 	color: black;
 }
