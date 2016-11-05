@@ -205,10 +205,10 @@ header {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: white;
-	background-image: url(../images/canvas.jpeg);
+	background-image: url(../images/me.jpg);
 	background-repeat:no-repeat;
 	background-attachment: scroll;
-	background-position: center center;
+	background-position: center -150px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size:cover;
@@ -219,16 +219,48 @@ header {
 
 
 header .intro-text {
+	/*settings while in mobile mode*/
 	padding-top: 50px;
 	padding-bottom: 25px;
+
 }
 
+@media (min-width: 550px){
+	/*while the screen is more than 550px*/
+	header {
+		background-position: center -200px;
+	}
+}
+
+
 @media (min-width: 768px) {
+	/*while the screen is more than 768px*/
 	header .intro-text {
+		/*settings while in desktop mode*/
 		padding-top: 300px;
 		padding-bottom: 100px;
+
+    }
+    header{
+    	background-position: center -200px;
     }
 }
+
+@media (min-width: 1200px) {
+    header{
+    	background-position: center -300px;
+    }
+}
+
+
+
+@media (min-width: 1300px) {
+    header{
+    	background-position: center -700px;
+    }
+}
+
+
 #whoami{
 	opacity: 0.7;
 	border-radius: 10px;
