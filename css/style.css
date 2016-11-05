@@ -3,23 +3,32 @@
 
 @font-face {
     font-family: "mplus-1c-regular";
-    src: url(fonts/mplus-1c-regular.ttf);
+    src: url(../fonts/mplus-1c-regular.ttf);
 }
 
 @font-face {
     font-family: "mplus-1c-bold";
-    src: url(fonts/mplus-1c-bold.ttf);
+    src: url(../fonts/mplus-1c-bold.ttf);
 }
+@font-face {
+    font-family: "mplus-1c-light";
+    src: url(../fonts/mplus-1c-light.ttf);
+}
+
+
 /*--------------------
 1. General
 --------------------*/
+html * {
+	font-family: "mplus-1c-light", Sans-serif;
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
 body {
 	margin: 0px;
-	font-family: "M+ 1c light", Sans-serif;
+	font-family: "mplus-1c-light", Sans-serif;
 }
 
 h1,
@@ -30,12 +39,12 @@ h5,
 h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
-	font-family: "M+ 1c light", Sans-serif;
+	font-family: "mplus-1c-light", Sans-serif;
 	color: #232323;
 }
 
 p {
-	font-family: 'M+ 1c light', sans-serif;
+	font-family: 'mplus-1c-light', sans-serif;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 23px;
@@ -62,7 +71,6 @@ a, a:hover, a:focus, a:active, a.active {
 
 @media (min-width: 768px) {
 	section {
-
 		padding: 150px 0;
 	}
 }
@@ -79,7 +87,7 @@ ul {
 ul li {
     list-style: none;
     padding-bottom: 10px;
-    font-family: 'M+ 1c light', sans-serif;
+    font-family: 'mplus-1c-light', sans-serif;
     font-size: 14px;
     font-weight: 100;
     line-height: 23px;
@@ -122,7 +130,7 @@ section ul li:before {
 }
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-family: "M+ 1c",sans-serif;
+	font-family: "mplus-1c-light",sans-serif;
 	padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
@@ -142,7 +150,7 @@ section ul li:before {
 	background-color: #479CCF;
 }
 .navbar-default .nav li a {
-	font-family: "M+ 1c",sans-serif;
+	font-family: "mplus-1c-light",sans-serif;
 	text-transform: uppercase;
 	font-weight: 100;
 	letter-spacing: 1px;
@@ -229,11 +237,18 @@ header .intro-text {
 @media (max-width: 550px){
 	/*while the screen is less than 550px*/
 	header {
-		background-position: center -100px;
-		padding-bottom: 100px;
+		background-position: center -50px;
+		padding-bottom: 220px;
 	}
 }
 
+@media (max-width: 768px){
+	/*while the screen is less than 550px*/
+	header {
+		background-position: center -50px;
+		padding-bottom: 220px;
+	}
+}
 
 @media (min-width: 768px) {
 	/*while the screen is more than 768px*/
@@ -244,41 +259,44 @@ header .intro-text {
 
     }
     header{
-    	background-position: center -50px;
+    	background-position: center 100px;
     	padding-bottom: 100px;
     }
 }
 
 @media (min-width: 900px) {
     header{
-    	background-position: center -250px;
+    	background-position: center -100px;
+    	padding-bottom: 100px;
     }
 }
 
 @media (min-width: 1200px) {
     header{
     	background-position: center -300px;
-    }
-}
-
-
-@media (min-width: 1300px) {
-    header{
-    	background-position: center -500px;
     	padding-bottom: 300px;
     }
 }
 
-@media (min-width: 1700px) {
+
+@media (min-width: 1500px) {
     header{
-    	background-position: center -700px;
-    	padding-bottom: 500px;
+    	background-position: center -350px;
+    	padding-bottom: 300px;
     }
 }
 
-@media (min-width: 2200px) {
+@media (min-width: 1600px) {
     header{
-    	background-position: center -900px;
+    	background-position: center -550px;
+    	padding-bottom: 400px;
+    }
+}
+
+@media (min-width: 2000px) {
+    header{
+    	background-position: center -700px;
+    	padding-bottom: 600px;
     }
 }
 
@@ -294,7 +312,7 @@ header .intro-text .intro-lead-in {
 	background-color: rgba(255, 255, 255, 0.65);
 	margin-bottom: 25px;
 	padding: 4px 20px;
-	font-family: "M+ 1c light",sans-serif;
+	font-family: "mplus-1c-light",sans-serif;
 	font-size: 19px;
 	color: #3E3E3E;
 	font-weight: 200;
@@ -309,22 +327,25 @@ header .intro-text .intro-lead-in {
     margin-bottom: 45px;
 	}
 }
+
 .spacer {
 	margin-left: 20px;
 	margin-right: 20px;
 }
 header .intro-text .intro-heading {
-
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 30px;
 	line-height: 48px;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
 	color: black;
+	margin: 0px 80px auto;
 }
+
 header .intro-sd {
 	font-size: 20px;
+	margin: 80px auto;
 }
 
 
@@ -349,11 +370,8 @@ header .intro-sd {
 }
 
 .maxpic{
-
 	width: 100px;
 	height: 100px;
-
-
 }
 
 .maxcontainer{
@@ -365,7 +383,7 @@ header .intro-sd {
 	font-size: 34px;
 	text-transform: uppercase;
 	color: #479CCF;
-	font-weight: 200;
+	font-weight: 100;
 	letter-spacing: -0.6px;
 	position: relative;
 	margin-bottom: 20px;
@@ -407,7 +425,7 @@ header .intro-sd {
 }
 
 .mz-module-about h3 {
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 22px;
 	text-transform: uppercase;
 	color: #000000;
@@ -690,7 +708,7 @@ font-size: 11px;
 	color: #fff;
     background-color: #479CCF;
     /* border-color: #726FB9; */
-    font-family: "M+ 1c light",sans-serif;
+    font-family: "mplus-1c-light",sans-serif;
     text-transform: uppercase;
     font-weight: 100;
     border-radius: 0;

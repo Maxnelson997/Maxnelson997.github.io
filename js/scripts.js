@@ -39,8 +39,8 @@ function checkNames(className){
   if(className.includes("twitter")){
     className = 'https://twitter.com/MaximusAsher';
   } else
-  if(className.includes("maxpic")){
-    className = 'http://maxnelsondevelopment.com';
+  if(className.includes("instagram")){
+    className = 'https://www.instagram.com/maxashernelson';
   } 
 
   return className;
