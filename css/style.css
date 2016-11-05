@@ -68,7 +68,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 70px 0;
+	padding: 30px 0;
 }
 
 ul {
@@ -222,6 +222,7 @@ header .intro-text {
 	/*settings while in mobile mode*/
 	padding-top: 50px;
 	padding-bottom: 25px;
+	text-align: center;
 
 }
 
@@ -264,7 +265,7 @@ header .intro-text {
     and (-webkit-min-device-pixel-ratio : 2)
 { 
 	header{
-    	background-position: center 100px;
+    	background-position: center 200px;
     }
 }
 
