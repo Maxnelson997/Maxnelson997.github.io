@@ -41,10 +41,15 @@ function checkNames(className){
   } else
   if(className.includes("instagram")){
     className = 'https://www.instagram.com/maxashernelson';
+  } else 
+  if(className.includes("stack-overflow")){
+    className = 'http://stackoverflow.com/users/3778273/max-nelson';
+  } else 
+  if(className.includes("apple")){
+    className = 'https://itunes.apple.com/us/developer/max-nelson/id1112838672';
   } 
 
   return className;
-
 
   }
 
