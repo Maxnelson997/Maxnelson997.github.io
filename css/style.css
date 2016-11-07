@@ -213,7 +213,7 @@ header {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #333231;
-	background-image: url(../images/me.jpg);
+	background-image: url(../images/mac2.jpg);
 	background-repeat:no-repeat;
 	background-attachment: scroll;
 	background-position: center -100px;
@@ -242,6 +242,15 @@ header .intro-text {
 	}
 }
 
+@media (max-width: 650px)
+{
+	/*break to make the text look real nice*/
+	.spacer:before{ 
+		content: ' '; 
+		display: block;
+	}
+}
+
 @media (max-width: 768px){
 	/*while the screen is less than 550px*/
 	header {
@@ -266,29 +275,29 @@ header .intro-text {
 
 @media (min-width: 900px) {
     header{
-    	background-position: center -100px;
-    	padding-bottom: 100px;
+    	background-position: center 50px;
+    	padding-bottom: 200px;
     }
 }
 
 @media (min-width: 1200px) {
     header{
-    	background-position: center -300px;
-    	padding-bottom: 100px;
+    	background-position: center 00px;
+    	padding-bottom: 00px;
     }
 }
 
 
 @media (min-width: 1500px) {
     header{
-    	background-position: center -350px;
+    	background-position: center -150px;
     	padding-bottom: 100px;
     }
 }
 
 @media (min-width: 1600px) {
     header{
-    	background-position: center -550px;
+    	background-position: center -250px;
     	padding-bottom: 50px;
     
     }
@@ -296,7 +305,7 @@ header .intro-text {
 
 @media (min-width: 2000px) {
     header{
-    	background-position: center -700px;
+    	background-position: center -300px;
     	padding-bottom: 200px;
     }
 }
@@ -330,8 +339,11 @@ header .intro-text .intro-lead-in {
 }
 
 .spacer {
-	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.spacerOne {
+	margin-left: 20px;
 }
 header .intro-text .intro-heading {
 	font-weight: 100;
@@ -340,7 +352,7 @@ header .intro-text .intro-heading {
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
-	color: rgba(25, 25, 25, 0.65);
+	color: rgba(255, 255, 255, 0.65);
 }
 
 header .intro-sd {
@@ -473,7 +485,7 @@ header .intro-sd {
 	font-size: 24px;
 	width: 250px;
 	height: 40px;
-	color: rgba(25, 25, 25, 0.85);
+	color: rgba(255, 255, 255, 0.85);
 }
 
 /*--------------------
