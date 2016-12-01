@@ -213,7 +213,7 @@ header {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #333231;
-	background-image: url(../images/mac2.jpg);
+	background-image: url(../images/forest.jpg);
 	background-repeat:no-repeat;
 	background-attachment: scroll;
 	background-position: center -100px;
@@ -319,10 +319,10 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
 	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.65);
+	background-color: rgba(255, 255, 255, 0.95);
 	margin-bottom: 25px;
 	padding: 4px 20px;
-	font-family: "mplus-1c-light",sans-serif;
+	font-family: "mplus-1c-bold",sans-serif;
 	font-size: 19px;
 	color: #3E3E3E;
 	font-weight: 200;
@@ -333,6 +333,7 @@ header .intro-text .intro-lead-in {
 @media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
     font-size: 29px;
+    font-family: "mplus-1c-bold",sans-serif;
     line-height: 40px;
     margin-bottom: 45px;
 	}
@@ -347,16 +348,17 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
 	font-weight: 100;
-	font-size: 40px;
+	font-size: 45px;
 	line-height: 48px;
+		font-family: "mplus-1c-bold",sans-serif;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
-	color: rgba(255, 255, 255, 0.65);
+	color: rgba(200, 200, 200, 0.95);
 }
 
 header .intro-sd {
-	font-size: 35px;
+	font-size: 50px;
 	margin: 80px auto;
 }
 
@@ -433,6 +435,9 @@ header .intro-sd {
 /*--------------------
 4.1. About
 --------------------*/
+#about {
+	padding-top: 75px;
+}
 .links{
 	background-color: #479CCF;  
 }
@@ -482,10 +487,10 @@ header .intro-sd {
 .ot-square {
 	text-align: center;
 	margin-bottom: 10px;
-	font-size: 24px;
+	font-size: 40px;
 	width: 250px;
 	height: 40px;
-	color: rgba(255, 255, 255, 0.85);
+	color: rgba(200, 200, 200, .95);
 }
 
 /*--------------------
