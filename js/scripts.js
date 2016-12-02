@@ -11,7 +11,6 @@ $(window).scroll(function() {
 });
 
 
-
 $(function(){
   $('.htmlbutton').mouseenter(function(){
       var className = $(this).attr("class");

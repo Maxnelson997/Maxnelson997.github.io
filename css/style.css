@@ -56,16 +56,15 @@ p {
 
 
 .dark-bg p {
-color: #B1B1B1;	
+	color: #B1B1B1;	
 }
 
 .cover{
 	height: 100px;
-	margin-top: -50px;
-	margin-bottom: -50px;	
 }
 
 .coverTwo {
+	margin-top: -50px;
 	height: 175px;
 }
 
@@ -224,22 +223,26 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
+
+	padding-bottom: 300px;
+}
+.mainBG 
+{
 	background-color: #333231;
 	background-repeat:no-repeat;
 	background-attachment: scroll;
-	background-position: center -100px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-    background-size:cover;
-	-o-background-size: cover;
-	padding-bottom: 300px;
+	margin: -50px auto;
+	max-height: 600px;
+
 }
 
-
+.second{
+	margin: -50px auto;
+}
 
 header .intro-text {
 	/*settings while in mobile mode*/
-	padding-top: 50px;
+	padding-top: 150px;
 	padding-bottom: 25px;
 	text-align: center;
 
@@ -249,7 +252,7 @@ header .intro-text {
 	/*while the screen is less than 550px*/
 	header {
 		background-position: center -50px;
-		padding-bottom: 220px;
+		padding-bottom: 500px;
 	}
 }
 
@@ -266,7 +269,7 @@ header .intro-text {
 	/*while the screen is less than 550px*/
 	header {
 		background-position: center -50px;
-		padding-bottom: 300px;
+		padding-bottom: -500px;
 	}
 }
 
@@ -275,19 +278,19 @@ header .intro-text {
 	header .intro-text {
 		/*settings while in desktop mode*/
 		padding-top: 300px;
-		padding-bottom: 100px;
+		padding-bottom: -500px;
 
     }
     header{
     	background-position: center 100px;
-    	padding-bottom: 100px;
+    	padding-bottom: 00px;
     }
 }
 
 @media (min-width: 900px) {
     header{
     	background-position: center 50px;
-    	padding-bottom: 200px;
+    	padding-bottom: 00px;
     }
 }
 
@@ -302,14 +305,14 @@ header .intro-text {
 @media (min-width: 1500px) {
     header{
     	background-position: center -150px;
-    	padding-bottom: 100px;
+    	padding-bottom: 0px;
     }
 }
 
 @media (min-width: 1600px) {
     header{
     	background-position: center -250px;
-    	padding-bottom: 50px;
+    	padding-bottom: 0px;
     
     }
 }
@@ -317,7 +320,7 @@ header .intro-text {
 @media (min-width: 2000px) {
     header{
     	background-position: center -300px;
-    	padding-bottom: 200px;
+    	padding-bottom: 0px;
     }
 }
 
@@ -361,11 +364,14 @@ header .intro-text .intro-heading {
 	font-weight: 100;
 	font-size: 45px;
 	line-height: 48px;
-		font-family: "mplus-1c-bold",sans-serif;
+	font-family: "mplus-1c-bold",sans-serif;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
+	padding-top: -100px;
+
 	word-spacing: 10px;
-	color: rgba(200, 200, 200, 0.95);
+	/*I am the one*/
+	color: rgba(51,126,185,0.9);
 }
 
 header .intro-sd {
@@ -382,9 +388,9 @@ header .intro-sd {
 	}
 	header .intro-sd {
 		font-size: 40px;
-		margin-bottom: 80px;
+		margin-bottom: 100px;
 		width: 500px;
-		margin-top: 250px;
+	
 	}
 }
 
@@ -491,7 +497,7 @@ header .intro-sd {
 
 
 .parallax-window {
-    min-height: 300px;
+    min-height: 500px;
     background: transparent;
     background-attachment: fixed;
 
@@ -502,12 +508,14 @@ header .intro-sd {
 }
 
 .ot-square {
+	font-family: "mplus-1c-bold",sans-serif;
 	text-align: center;
+
 	margin-bottom: 10px;
 	font-size: 40px;
 	width: 250px;
-	height: 40px;
-	color: rgba(200, 200, 200, .95);
+	height: 50;
+	color: rgba(51,126,185,0.9);
 }
 
 /*--------------------
