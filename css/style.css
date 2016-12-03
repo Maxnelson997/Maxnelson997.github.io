@@ -229,7 +229,7 @@ header {
 {
 	background-color: #333231;
 	background-repeat:no-repeat;
-	filter:blur(1px);
+	filter:blur(0px);
 	background-attachment: scroll;
 	margin: -50px auto;
 	max-height: 600px;
