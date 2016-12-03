@@ -87,7 +87,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 30px 0;
+	padding: 75px 0;
 }
 
 ul {
@@ -189,7 +189,7 @@ section ul li:before {
 	.navbar-default
 	{
 		background-color: rgba(255, 255, 255, 0.65);
-		padding: 25px 0;
+		padding: 10px 0;
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
@@ -233,6 +233,7 @@ header {
 	background-attachment: scroll;
 	margin: -50px auto;
 	max-height: 600px;
+
 
 }
 
@@ -332,7 +333,7 @@ header .intro-text .intro-lead-in {
 	display: inline-block;
 	background-color: rgba(255, 255, 255, 0.95);
 	margin-bottom: 25px;
-	padding: 4px 20px;
+	padding: 4px 4px;
 	font-family: "mplus-1c-bold",sans-serif;
 	font-size: 40px;
 	color: #3E3E3E;
@@ -364,11 +365,17 @@ header .intro-text .intro-heading {
 	font-family: "mplus-1c-bold",sans-serif;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
-	padding-top: 60px;
+	margin-top: 60px;
+	padding-top: 10px;
+	width: 700px;
+	margin: 25px auto;
 
 	word-spacing: 10px;
 	/*I am the one*/
-	color: #479CD0;
+	/*color: #479CD0;*/
+		border-radius: 15px;
+	color: black;
+	background-color: rgba(255,255,255,0.5);
 }
 
 header .intro-sd {
@@ -493,10 +500,15 @@ header .intro-sd {
 
 
 .parallax-window {
-    min-height: 500px;
+    min-height: 200px;
     background: transparent;
     background-attachment: fixed;
+    margin: -50px auto;
 
+}
+
+.nature {
+	min-height: 400px;
 }
 .animate{
 	opacity: 0.7;
@@ -506,12 +518,14 @@ header .intro-sd {
 .ot-square {
 	font-family: "mplus-1c-bold",sans-serif;
 	text-align: center;
-
+	border-radius: 15px;
 	margin-bottom: 10px;
 	font-size: 40px;
 	width: 250px;
 	height: 50;
-	color: #479CD0;
+	/*color: #479CD0;*/
+	color: black;
+	background-color: rgba(255,255,255,0.5);
 }
 
 /*--------------------
@@ -537,6 +551,10 @@ header .intro-sd {
 
 .dark-bg .section-text h4 {
 	color: #dfdfdf;
+}
+
+.no-bg {
+
 }
 
 /*--------------------
@@ -591,8 +609,8 @@ header .intro-sd {
 .short-section {
 	border-top: 1px solid #5D5D5F;
 	border-bottom: 1px solid #5D5D5F;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 25px;
+	padding-bottom: 5px;
 }
 
 .num {
