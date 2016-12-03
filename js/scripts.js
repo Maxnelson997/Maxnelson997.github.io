@@ -98,8 +98,8 @@ $('.owl-portfolio').owlCarousel({
     margin:25,
     nav:true,
     navText: [
-          //"<i class='fa fa-circle'></i>",
-          //"<i class='fa fa-circle'></i>"
+          "<i class='fa fa-arrow-left'></i>",
+          "<i class='fa fa-arrow-right'></i>"
           ],
     dots:true,
     autoplay:true,
