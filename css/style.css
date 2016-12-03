@@ -60,7 +60,7 @@ p {
 }
 
 .cover{
-	height: 100px;
+	height: 10px;
 }
 
 .coverTwo {
@@ -189,7 +189,7 @@ section ul li:before {
 	.navbar-default
 	{
 		background-color: rgba(255, 255, 255, 0.65);
-		padding: 5px 0;
+		padding: 25px 0;
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
@@ -205,9 +205,8 @@ section ul li:before {
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #FFFFFF;
-		border-bottom: 1px solid #828282;
-		padding: 5px 0
+
+		padding: 0px 0
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
 		font-size: 1.5em;
@@ -236,9 +235,7 @@ header {
 
 }
 
-.second{
-	margin: -50px auto;
-}
+
 
 header .intro-text {
 	/*settings while in mobile mode*/
@@ -277,27 +274,27 @@ header .intro-text {
 	/*while the screen is more than 768px*/
 	header .intro-text {
 		/*settings while in desktop mode*/
-		padding-top: 300px;
-		padding-bottom: -500px;
+  	  padding-top: 250px;
+    	padding-bottom: 125px;
 
     }
     header{
     	background-position: center 100px;
-    	padding-bottom: 00px;
+
     }
 }
 
 @media (min-width: 900px) {
     header{
     	background-position: center 50px;
-    	padding-bottom: 00px;
+
     }
 }
 
 @media (min-width: 1200px) {
     header{
     	background-position: center 00px;
-    	padding-bottom: 00px;
+
     }
 }
 
@@ -305,14 +302,14 @@ header .intro-text {
 @media (min-width: 1500px) {
     header{
     	background-position: center -150px;
-    	padding-bottom: 0px;
+
     }
 }
 
 @media (min-width: 1600px) {
     header{
     	background-position: center -250px;
-    	padding-bottom: 0px;
+
     
     }
 }
@@ -320,7 +317,7 @@ header .intro-text {
 @media (min-width: 2000px) {
     header{
     	background-position: center -300px;
-    	padding-bottom: 0px;
+
     }
 }
 
@@ -331,13 +328,14 @@ header .intro-text {
 	width: 100px;
 	margin: 0 auto;
 }
+
 header .intro-text .intro-lead-in {
 	display: inline-block;
 	background-color: rgba(255, 255, 255, 0.95);
 	margin-bottom: 25px;
 	padding: 4px 20px;
 	font-family: "mplus-1c-bold",sans-serif;
-	font-size: 19px;
+	font-size: 40px;
 	color: #3E3E3E;
 	font-weight: 200;
 	line-height: 40px;
@@ -346,7 +344,7 @@ header .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
-    font-size: 29px;
+    font-size: 40px;
     font-family: "mplus-1c-bold",sans-serif;
     line-height: 40px;
     margin-bottom: 45px;
@@ -367,15 +365,15 @@ header .intro-text .intro-heading {
 	font-family: "mplus-1c-bold",sans-serif;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
-	padding-top: -100px;
+	padding-top: 60px;
 
 	word-spacing: 10px;
 	/*I am the one*/
-	color: rgba(51,126,185,0.9);
+	color: #479CD0;
 }
 
 header .intro-sd {
-	font-size: 50px;
+
 	margin: 80px auto;
 }
 
@@ -384,13 +382,12 @@ header .intro-sd {
 	header .intro-text .intro-heading{
 		line-height: 95px;
 		font-size: 60px;
-		margin-bottom: 50px;
+		
 	}
 	header .intro-sd {
 		font-size: 40px;
-		margin-bottom: 100px;
+
 		width: 500px;
-	
 	}
 }
 
@@ -515,7 +512,7 @@ header .intro-sd {
 	font-size: 40px;
 	width: 250px;
 	height: 50;
-	color: rgba(51,126,185,0.9);
+	color: #479CD0;
 }
 
 /*--------------------
