@@ -101,15 +101,15 @@ $('.owl-partners').owlCarousel({
 // Owl carousel
 $('.owl-portfolio').owlCarousel({
     loop:true,
-    margin:10,
+    margin:25,
     nav:true,
     navText: [
-          "<i class='fa fa-angle-left'></i>",
-          "<i class='fa fa-angle-right'></i>"
+          //"<i class='fa fa-circle'></i>",
+          //"<i class='fa fa-circle'></i>"
           ],
-    dots:false,
+    dots:true,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:1500,
     autoplayHoverPause:true,
     responsive:{
         0:{
@@ -168,6 +168,7 @@ $(function() {
             duration: 3000 * 1,
             step: function (now, fx) {
                 $(el).text(Math.ceil(now));
+
             },
             complete:function() {
                 if (el.dataset.sym !== undefined) {
