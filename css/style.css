@@ -229,13 +229,12 @@ header {
 {
 	background-color: #333231;
 	background-repeat:no-repeat;
+	filter:blur(1px);
 	background-attachment: scroll;
 	margin: -50px auto;
 	max-height: 600px;
 
 }
-
-
 
 header .intro-text {
 	/*settings while in mobile mode*/

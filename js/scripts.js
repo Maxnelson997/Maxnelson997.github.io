@@ -10,6 +10,14 @@ $(window).scroll(function() {
     }
 });
 
+$(window).scroll(function () { 
+
+   $('.par').css({
+      'top' : -($(this).scrollTop()/3)+"px"
+   }); 
+
+});
+
 
 $(function(){
   $('.htmlbutton').mouseenter(function(){
