@@ -1,6 +1,5 @@
 
 
-var $win = $(window);
 
 $(window).scroll(function () { 
     if ($($win).scrollTop() > 0) {
@@ -12,11 +11,6 @@ $(window).scroll(function () {
     }
 });
 
-$(document).ready(function(){
-  var winWidth = $(window).width();
-
-//  $(".parallax-window").css({"background-image-width":winWidth});
-});
 
 
 $(function(){
