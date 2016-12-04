@@ -1,5 +1,5 @@
 
-
+$win = $(window);
 
 $(window).scroll(function () { 
     if ($($win).scrollTop() > 0) {
