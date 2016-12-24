@@ -55,8 +55,12 @@ p {
 }
 
 
-.dark-bg p {
+.dark-bg p, .dark-bg h3, .dark-bg footer {
 	color: #B1B1B1;	
+}
+
+.quote-section p, .quote-section h3, .quote-section ul {
+	margin-left: 20px;
 }
 
 .cover{
@@ -222,7 +226,6 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
-
 	padding-bottom: 300px;
 }
 .mainBG 
@@ -233,8 +236,18 @@ header {
 	background-attachment: scroll;
 	margin: -50px auto;
 	max-height: 600px;
+}
 
+.maxpicdiv {
+	height: 500px;
+	width: 500px;
+	margin: 50px auto;
+}
 
+.maxpic {
+	background: #333231 url("../images/maxpic.jpg") no-repeat center;
+	height: 500px;
+	width: 500px;
 }
 
 header .intro-text {
@@ -404,11 +417,6 @@ header .intro-sd {
 	border: none;
 }
 
-.maxpic{
-	width: 100px;
-	height: 100px;
-}
-
 .maxcontainer{
 	max-height: 150px;
 	max-height: 150px;
@@ -504,7 +512,6 @@ header .intro-sd {
     background: transparent;
     background-attachment: fixed;
     margin: -50px auto;
-
 }
 
 .nature {
