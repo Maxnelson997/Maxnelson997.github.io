@@ -507,10 +507,10 @@ header .intro-sd {
 
 
 .parallax-window {
-    min-height: 200px;
+
     background: transparent;
     background-attachment: fixed;
-    margin: -50px auto;
+
     iosFix: false;
     androidFix: false;
 }
