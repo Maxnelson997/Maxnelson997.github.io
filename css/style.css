@@ -591,10 +591,18 @@ header .intro-sd {
   border-color: transparent;
 }
 
+.embed-responsive {
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
 @media (min-width:768px) {
 	.rContainer{
-		  margin-left: auto;
-  			margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 		transform: scale(1);
 	}
 	.resume {
