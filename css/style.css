@@ -511,6 +511,8 @@ header .intro-sd {
     background: transparent;
     background-attachment: fixed;
     margin: -50px auto;
+    iosFix: false;
+    androidFix: false;
 }
 
 .nature {
