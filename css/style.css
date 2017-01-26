@@ -448,6 +448,22 @@ header .intro-sd {
 	background: #479CCF;
 }
 
+.code-container {
+	width: 50vw;
+	margin-left: 2vw;
+	margin-top: 2vw;
+	background-color: #e0e0e0
+
+}
+.uikitintro {
+	color: greenyellow !important;
+
+}
+/* jquery/javascript way
+$(window).on( 'resize', function () {
+    $('.code-container').height( $(window).width() / 2 );
+}).resize();
+ */
 .dark-bg .section-title h2 {
 	color: #479CCF;
 }
@@ -507,10 +523,10 @@ header .intro-sd {
 
 
 .parallax-window {
-
+    min-height: 200px;
     background: transparent;
     background-attachment: fixed;
-
+    margin: -50px auto;
     iosFix: false;
     androidFix: false;
 }
