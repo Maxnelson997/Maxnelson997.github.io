@@ -358,7 +358,7 @@ header .intro-text .intro-lead-in {
 @media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
     font-size: 40px;
-    font-family: "mplus-1c-bold",sans-serif;
+    font-family: "mplus-1c-regular",sans-serif;
     line-height: 40px;
     margin-bottom: 45px;
 	}
@@ -375,7 +375,7 @@ header .intro-text .intro-heading {
 	font-weight: 100;
 	font-size: 35px;
 	line-height: 48px;
-	font-family: "mplus-1c-bold",sans-serif;
+	font-family: "mplus-1c-regular",sans-serif;
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	margin-top: 60px;
