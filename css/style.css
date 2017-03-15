@@ -56,7 +56,7 @@ p {
 
 
 .dark-bg p, .dark-bg h3, .dark-bg footer {
-	color: #B1B1B1;	
+	color: #B1B1B1;
 }
 
 .quote-section p, .quote-section h3, .quote-section ul {
@@ -96,7 +96,7 @@ section {
 
 ul {
 	padding-left: 0;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 ul li {
@@ -228,7 +228,7 @@ header {
 	color: #fff;
 	padding-bottom: 300px;
 }
-.mainBG 
+.mainBG
 {
 	background-color: #333231;
 	background-repeat:no-repeat;
@@ -269,8 +269,8 @@ header .intro-text {
 @media (max-width: 650px)
 {
 	/*break to make the text look real nice*/
-	.spacer:before{ 
-		content: ' '; 
+	.spacer:before{
+		content: ' ';
 		display: block;
 	}
 }
@@ -323,7 +323,7 @@ header .intro-text {
     header{
     	background-position: center -250px;
 
-    
+
     }
 }
 
@@ -485,7 +485,7 @@ $(window).on( 'resize', function () {
 	padding-top: 0px;
 }
 .links{
-	background-color: #479CCF;  
+	background-color: #479CCF;
 }
 
 .mz-module-about h3 {
@@ -551,7 +551,7 @@ $(window).on( 'resize', function () {
 	width: 250px;
 	height: 50px;
 	/*color: #479CD0;*/
-	color: black;
+	color: white;
 	background-color: rgba(255,255,255,0.15);
 }
 
@@ -619,9 +619,10 @@ $(window).on( 'resize', function () {
 }
 
 .dark-bg {
-	background-color: #333231;	
+	background-color: #333231;
 	color: #fff;
 }
+
 
 .short-section {
 	border-top: 1px solid #5D5D5F;
@@ -674,7 +675,7 @@ $(window).on( 'resize', function () {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #000;
 }
 
 footer p {
@@ -702,12 +703,12 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+	border-radius: 0;
 }
 .modal-header .close {
-	font-size: 30px;	
+	font-size: 30px;
 }
-.modal-title {	
+.modal-title {
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -718,7 +719,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: #2D2D2D;
 }
 
 .modal-works {
